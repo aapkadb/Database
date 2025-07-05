@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:pro="http://www.liquibase.org/xml/ns/pro"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-latest.xsd
+    http://www.liquibase.org/xml/ns/pro http://www.liquibase.org/xml/ns/pro/liquibase-pro-latest.xsd ">
+
+<changeSet id="Creating_Dis_D_Table_ver1" author="Umang Shukla" labels="Learning">
+<sqlFile path="SQL_Query/Dis_D.sql" />
+</changeSet>
+<!--
+<changeSet id="2" author="Umang Shukla">
+<sqlFile path="SQL_Query/ddl_for_schema.sql" />
+</changeSet>
+-->
+</databaseChangeLog>
